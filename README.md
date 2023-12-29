@@ -18,6 +18,7 @@ Call the function
 ### Step 6: 
 Print the number of words
 ## PROGRAM:
+```
 #Program to find the number of words
 #Developed by: Joel John Jobinse
 #Register Number: 212223240062
@@ -27,6 +28,7 @@ with open("file1.txt",'r') as fp:
         words=line.split()
         noofwords+=len(words)
     print("No of words in file:", noofwords)
+```
 ### OUTPUT:
 ![py5a](https://github.com/joeljohnjobinse/Word-count/assets/138955488/cc324d39-d9a9-45d5-8f60-12e86b8d4c96)
 
